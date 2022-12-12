@@ -29,16 +29,22 @@ with tab1:
     st.markdown(
         """
         Dataset ini memiliki beberapa fitur yaitu :
-       - Male : LAKI (p=0,L=1)
-       - Age: Umur
-       - education: Pendidikan
-       - CurrentSmoker: perokok saat ini (0:tidak merokok, 1=merokok)
-       - cigsPerDay: Jumlah rokok yang dikonsumsi per hari
-       - BPMeds: Status seseorang mengomsumsi obat tekanan darah (0:tdk konsumsi, 1:konsumsi)
-       - PrevalanseStroke: angka kejadian stroke (0:tdk, 1:mengalami)
-       - LazimHyp: angka kejadian hipertensi (0:tdk mengalami hipertensi, 1:mengalami hipertensi)
-       - diabetes: status diabetes atau tidak (0:tdk, 1:iya)
-       - totChol:tingkat kolesterol(mm/dl)
+        Male : LAKI (p=0,L=1)
+Age         : Umur 
+Education: Pendidikan
+CurrentSmoker: perokok saat ini (0:tidak merokok, 1=merokok)
+cigsPerDay: Jumlah rokok yang dikonsumsi per hari
+BPMeds: Status seseorang mengomsumsi obat tekanan darah (0:tdk konsumsi, 1:konsumsi)
+PrevalanseStroke: angka kejadian stroke (0:tdk, 1:mengalami)
+LazimHyp: angka kejadian hipertensi (0:tdk mengalami hipertensi, 1:mengalami hipertensi)
+diabetes: status diabetes atau tidak (0:tdk, 1:iya)
+totChol:tingkat kolesterol(mm/dl)
+sysBP:tekanan sistolik(tdk lebih dari 140 mmHg)
+diaBP:tekanan diastotik(tdk lebih dari 90 mmHg)
+BMI:
+Detak jantung: denyut jantung(normalnya 60-100 denyut per menit)
+glukosa:kadar glukosa(mg/dl)
+TenYearCHD:Risiko seseorang terkena oenyakit jantung koroner (0:tdk beresiko,1:resiko)
         """
     )
 
